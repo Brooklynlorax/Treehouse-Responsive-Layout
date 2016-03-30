@@ -1,0 +1,306 @@
+/* ------Base Styles ---------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	color: #777;
+	}
+
+a {
+	text-decoration: none;
+	color: #777;
+	}
+
+h1 {
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 0;
+	}
+
+
+h2, li {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+p {
+	width: 95%;
+	margin: 0 auto;
+	padding: 4px;
+	font-size: 16px;
+}
+
+
+ul {
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0;
+}
+
+.footer {
+	background-color: #fafafa;
+	margin-top: 20px;
+	height: 75px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #777;
+	}
+
+.footer .name {
+	padding: 10px 0px 0px 15px;
+	font-size: 18px;
+	float: left;
+	text-transform: none;
+	}
+
+.footer-large {
+	display: none;
+}
+
+.middle {
+	padding-top: 15px;
+	}
+
+.nav {
+	width: 96%;
+	margin: auto 0;
+	}
+
+.nav ul li{
+	background-color: #fff;
+	margin-top: 5px;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.portfolio img {
+	padding-bottom: 10px;
+	padding-top: 40px;
+}
+
+.rule {
+	height: 1px;
+	background-color: #ddd;
+	margin: 0px 15px 0px 15px;
+	}
+
+.contact {
+	text-align: center;
+	padding-bottom: 40px;
+
+}
+
+.portfolio {
+	width: 96%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-bottom: 8%;
+}
+
+.portfolio-head {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+.portfolio h2, .contact h2 {
+	padding-top: 60px;
+}
+
+.profile {
+	margin: 0 auto;
+	padding-bottom: 40px;
+	}
+
+.profile img {
+	width: 75%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	}
+
+.portfolio img {
+	width: 95%;
+}
+
+
+.sticky-wrap {
+	background-color: #fafafa;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 320px;
+	background-color: #fafafa;
+}
+
+p .name {
+	padding: 26px 0 26px 0;
+}
+
+/* Media Breakpoints - mobile uses base styles */
+@media only screen and (min-width: 768px) {
+
+	/* Formatting */
+	.wrapper {
+		margin: 0 auto;
+		width: 768px;
+		background-color: #fafafa;
+		padding: 2%;
+	}
+
+	.name {
+		float: left;
+		display: inline;
+	}
+
+	.footer {
+		margin: 0 auto;
+		height: 60px;
+	}
+
+	.footer-mobile {
+		display: none;
+	}
+
+	.nav {
+		margin: 0 auto;
+		padding-bottom: 60px;
+		}
+
+	.nav ul li{
+		display: inline;
+		background-color: #fafafa;
+	}
+
+	.footer .nav ul {
+		float: right;
+		display: inline;
+	}
+
+	.footer-large {
+		display: inline;
+	}
+
+	.col {
+		display: inline-block;
+		width: 48%;
+		vertical-align: top;
+	}
+
+	.col-2 {
+		margin-left: -10px;
+	}
+
+	.clear::after {
+		clear: both;
+		display: table;
+		content: "";
+		}
+
+	.contact {
+		margin: 0 auto;
+		width: 50%;
+	}
+
+	.profile {
+		display: inline-block;
+		width: 96%;
+	}
+
+	.profile img {
+		display: inline;
+		float: right;
+		width: 40%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.profile p {
+		text-align: left;
+		font-size: 20px;
+		margin: 0;
+		width: 55%;
+	}
+
+	h1 {
+		padding-bottom: 20px;
+		}
+
+	h2 {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+
+	.portfolio img {
+		padding-bottom: 10px;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+
+}
+
+@media only screen and (min-width: 1023px) {
+	h1 {
+		display: inline;
+		float: left;
+		vertical-align: top;
+		}
+
+	.col {
+		width: 33%;
+		}
+
+	.col-2 {
+		margin-left: 0;
+	}
+
+	.wrapper {
+		width: 1024px;
+	}
+
+	.header {
+		display: block;
+		padding-top: 40px;
+	}
+
+	.portfolio {
+		width: 100%;
+		}
+
+	.profile {
+		width: 100%;
+		display: inline-block;
+		padding-top: 40px;
+	}
+
+	.nav {
+		float: none;
+		display: inline;
+	}
+
+	.nav ul {
+		float: right;
+		display: inline;
+	}
+
+	.sticky-wrap {
+		width: 1024px;
+		margin: 0 auto;
+	}
+}
+

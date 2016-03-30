@@ -1,6 +1,90 @@
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
+	<title>Treehouse Responsive Website</title>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,600italic,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<div class="sticky-wrap">
+		<div class="wrapper">
+			<div class="header" id="top">
+				<h1>
+					Mike Andres
+				</h1>
+				<div class="h2 nav">
+					<ul>
+						<li><a href="#top">home</a></li>
+						<li><a href="#portfolio">portfolio</a></li>
+						<li><a href="#contact">contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="profile">
+				<img src="Images/responsive-layout-profile.png" alt="profile-image">
+				<p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+			</div>
+			<div class="portfolio" id="portfolio">
+				<h2>Portfolio</h2>
+					<div class="col">
+						<img src="Images/portfolio-1.png" alt="marketing-image">
+						<p class="portfolio-head">Marketing Page</p>
+						<p>This project shows the front page of a marketing website meant for a specific business that I'm interested in.</p>
+					</div>
+					<div class="col col-2">
+						<img src="Images/portfolio-2.png" alt="search-image">
+						<p class="portfolio-head">Search Page</p>
+						<p>This project shows the front page of a marketing website meant for a specific business that I'm interested in.</p>
+					</div>
+					<div class="col clear">
+						<img src="Images/portfolio-3.png" alt="travel-app-image">
+						<p class="portfolio-head">Travel App</p>
+						<p>This project shows the front page of a marketing website meant for a specific business that I'm interested in.</p>
+					</div>
+					<div class="col  col-2">
+						<img src="Images/portfolio-6.png" alt="map-image">
+						<p class="portfolio-head">Map of My Favorite Spots</p>
+						<p>This project uses APIs top plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+					</div>
+					<div class="col">
+						<img src="Images/portfolio-5.png" alt="photo-gallery-image">
+						<p class="portfolio-head">Photo Gallery</p>
+						<p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through the photos.</p>
+					</div>
+				<div class="col  col-2">
+					<img src="Images/portfolio-4.png" alt="calculator-image">
+					<p class="portfolio-head">Calculator</p>
+					<p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="contact" id="contact">
+				<h2>Contact</h2>
+				<p class="gray">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!<p>
+				<p class="gray">Phone <strong>+1(111)555-1234</strong></p>
+				<p class="gray">Email <strong>email@yoursite.com</strong></p>
+			</div>
+		<!--End of Sticky Footer Wrapper -->
+		</div>
+		<div class="footer">
+				<div class="rule"></div>
+				<div class="middle">
+					<div class="name">
+						Mike Andres
+					</div>
+					<div class="h2 nav footer-large">
+					<ul>
+						<li><a href="#top">home</a></li>
+						<li><a href="#portfolio">portfolio</a></li>
+						<li style="padding-right: 15px;"><a href="#contact">contact</a></li>
+					</ul>
+					</div>
+					<div class="footer-mobile">
+							<a href="#top" style="float: right; padding: 15px 15px 0 0;">Back to Top</a>
+						</div>
+					</div>
+		</div>
+	<!--End of wrapper -->
+	</div>
 </body>
 </html>
